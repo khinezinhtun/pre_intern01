@@ -1,0 +1,107 @@
+.header{
+    background-color:rgb(41, 4, 128);
+}
+
+.navbar{
+    text-align: center;
+    margin-top: 7px;
+    height: 30px;
+    padding-top: 17px;
+    background-color:white;
+}
+
+.mySlides {
+    display:none; 
+}
+
+.sw3-content,.w3-section{
+    display: block;
+    width:100%;
+    padding: 0px 150px;
+    max-height: 3000px;
+    overflow:visible;
+}
+  
+.slide1,.slide2{
+    height: 200%;
+    width:100%;
+    display:inline-block;
+}
+
+.body{
+    margin-top: 470px;
+    
+}
+.headerbody{
+    text-align: center;
+    color:rgb(45, 45, 48);
+}
+
+.mainbody{
+    text-align: center;
+}
+
+.area{
+    text-align: justify;
+    background-color: rgb(101, 190, 231);
+    margin-left: 7%;
+    padding :10px 10px 10px 30px;
+    width: 380px;
+}
+.editorial{
+    margin-top:-965px;
+    background-color:whitesmoke;
+    color: dodgerblue;
+    border-color: black;
+    margin-left: 45%;
+    margin-right: 15%;
+    text-align: left;
+    padding :10px 10px 10px 30px;
+}
+
+.contact{
+    background-color: rgb(101, 190, 231);
+    color:black;
+    padding:5px 5px 5px 5px ;
+}
+
+.submission{
+    margin-left: 45%;
+    margin-right: 15%;
+    text-align: left;
+}
+
+.download{
+    font-weight: bold;
+    background-color: rgb(101, 190, 231);
+    margin-left: 7%;
+    padding :10px 10px 10px 30px;
+    text-align: center;
+    width:380px;
+    margin-top:-115px;
+}
+
+.contactbody{
+    margin-left: 7%;
+    padding :10px 30px 10px 40px;
+    width: 7000px;
+}
+
+.form{
+    margin-top: -600px;
+    margin-left: 9.5%;
+    text-align: left;
+    
+}
+
+.footer{
+    margin-top: 65px;
+    text-align: center;
+    background-color: rgb(37, 37, 129);
+    width:100%;
+    height:45px;
+    font-weight: bold;
+    font-size: 23px;
+    color: yellow;
+    padding:30px 0 0 0;
+}
