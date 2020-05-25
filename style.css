@@ -1,8 +1,8 @@
-h1{
+.h1{
     color:mediumaquamarine;
     text-align: center;
 }
-p{
+.p{
     color:darkgreen;
     font-weight:bold;
     font-weight: 18px;
