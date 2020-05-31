@@ -1,0 +1,137 @@
+
+.bar{
+    text-align: right;
+    height:30px;
+    padding-top: 15px;
+    font-size: large;
+    
+}
+.img{
+    text-align: center;
+}
+.nav{
+    background-color:rgb(77, 79, 82);
+    height:40px;
+    padding: 10px 0 0 10px;
+    color: white;
+}
+.slidecontainer{
+    background-color:black;
+    width:75%;
+    height: 300px;
+    margin: center;
+    opacity: 0.6;
+    margin-left: 160px;
+    margin-top: -400px;
+    position: absolute;
+    
+}
+.slideimg{
+    padding-top: 400px;
+     margin-left: 15.5%;
+     margin-top: -775px;
+     position: absolute;
+    
+}
+
+.slidetxt{
+    color:white;
+    margin-left :45%;
+    margin-top: -20px;
+    padding-top: 30px;;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.cards{
+    margin-top:70px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.card{
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding:.5rem;
+    padding-left: 30px;
+    text-align: justify;
+    padding-right: 20px;
+}
+.reactor{
+    margin-left: 40%;
+    margin-right: 10%;
+    height: 25%;
+    margin-top: -270px;
+    text-align: justify;
+    font-size: 18px;
+}
+.events{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: unset;
+    grid-gap: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.event{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding:.5rem;
+}
+.welcome{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+.imgcards{
+    margin-top: -195px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+.updates{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: unset;
+    grid-gap: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.update{
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    padding:.5rem;
+    transition: transform .2s;
+}
+.update img:hover{
+    background-color: orangered;
+    margin-right:80%;
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.footer{
+    display: flex;
+    background-color: rgb(92, 91, 91);
+    height:500px;
+    color: white;
+    text-align: justify;
+    margin-top:20px;
+}
+.left,.middle{
+    padding:5% 5% 0 5%;
+    width: 25%;
+}
+.right{
+    padding:5% 5% 0 0;
+}
+
+
