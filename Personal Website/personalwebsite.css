@@ -1,0 +1,95 @@
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+}
+.nav{
+    border-bottom: 2px solid grey;
+}
+.nav > ul{
+    height: 80px;
+    list-style-type: none; 
+    text-align: end; 
+}
+.nav > ul > li{
+    float:left;
+    font-size: 22px;
+    text-align: end;
+   
+}
+.nav > ul > li >a{
+    color: black;
+    text-decoration: none;   
+}
+.nav > ul > li >a:hover{
+    color:blue;
+}
+.homebody1{
+    margin-top: 80px;
+    margin-left: 10%;  
+}
+.homebody2{
+    text-align: justify;
+    margin-left:40%;
+    margin-right: 5%;
+    margin-top: -500px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+    height:200px;
+}
+
+
+.etable{
+    border: 2px solid pink;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:20px 20px 20px 20px;
+    margin-top: 20px;
+}
+.ach{
+        display: flex;
+        height:500px;
+        margin-top: 70px;
+}
+.achimg{
+    float:left;
+     padding:10px 10px 10px 10px;
+     width:35.5%;
+}
+.achtxt{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.activity{
+    display: flex;
+     height:500px;
+     margin-top: -170px;
+}
+.acttxt{
+    float: left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width:65.5%;
+}
+.actimg{
+    padding:10px 10px 10px 10px;
+}
+.extable{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+.extable th,td{
+    border:rgb(192, 181, 181) solid;
+}
+.cbody{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:10%;
+    margin-top:50px;
+}
